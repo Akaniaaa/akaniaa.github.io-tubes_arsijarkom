@@ -1,46 +1,106 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: hsl(0, 0%, 100%);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 8px;
+    background-color: #fbfbfc;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    color: #020202;
+}
+
+h1 {
     text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
 .profile {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 
 .profile-photo {
-    border-radius: 100%;
-    width: 200px;
+    width: 200x;
     height: 200px;
+    border-radius: 20%;
+    border: 2px solid #ddd;
     object-fit: cover;
-    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+.details {
+    flex: 1;
 }
 
 .details p {
-    margin: 20px 0;
-    font-size: 18px;
+    margin: 5px 0;
+    color: #666;
+    font-size: 16px;
 }
 
-.details p strong {
-    font-weight: bold;
+.discussion ul {
+    list-style-type: none;
+    padding-left: 0;
 }
 
+.discussion li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #666;
+}
 
-h1 {
-    color:rgba(0, 0, 0, 0)
+.Komputer, .printer, .smartphone, .tablet{
+    width: 100%;
+    max-width: 100px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding-left: 20px;
+    color: #666;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
 }
