@@ -79,7 +79,7 @@ h3 {
 
 .Komputer, .printer, .smartphone, .tablet{
     width: 500%;
-    max-width: 5000px;
+    max-width: 500px;
     margin: 10px 0;
     border-radius: 8px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
